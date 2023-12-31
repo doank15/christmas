@@ -35,7 +35,7 @@ const titleData = document.getElementById('title-data'),
 
 const christmasCountdown = () => {
   let now = new Date(), // Get today's date
-      currentMonth = now.getMonth(), // Get the current month
+      currentMonth = now.getMonth() + 1, // Get the current month
       currentDay = now.getDate() // Get the current day of the month
       
   // Calculate the year the next Christmas will be
