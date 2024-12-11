@@ -1,108 +1,408 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
 
-      <title>Responsive christmas website</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">
-               <span>Merry</span>
-               <span>Christmas</span>
-            </a>
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
 
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="#" class="nav__link active-link">
-                        <span>01</span> Home
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#" class="nav__link">
-                        <span>02</span> Card
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#" class="nav__link">
-                        <span>03</span> Contact Us
-                     </a>
-                  </li>
-               </ul>
+   <title>Merry Christmas</title>
 
-               <div class="nav__buttons">
-                  <div class="nav__notification">
-                     <img src="assets/img/bell.png" alt="image bell" class="nav__bell">
-                     <div class="nav__circle">2</div>
-                  </div>
+</head>
 
-                  <a href="#" class="button button__dark">Send a Card</a>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <div class="bells">
+         <img
+            src="https://th.bing.com/th/id/R.764590f41a11fa49e2bf7681a373d56e?rik=j3Ao67VmIL8OKA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fbell%2fbell_PNG53506.png&ehk=j4QDs5TNr6LNco0esSYtWuT%2fPMrk6pz4BkvgbBf1P%2f4%3d&risl=&pid=ImgRaw&r=0"
+            alt="Bell 1" class="bell bell-1">
+      </div>
+
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <span>Merry</span>
+            <span>Christmas</span>
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#" class="nav__link active-link">
+                     ❄️❄️❄️ Tran
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#" class="nav__link active-link">
+                     ❄️ Phuong
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#" class="nav__link active-link">
+                     ❄️ Thao ❄️❄️❄️
+                  </a>
+               </li>
+            </ul>
+
+            <div class="nav__buttons">
+               <div class="nav__notification">
+                  <img src="assets/img/bell.png" alt="image bell" class="nav__bell">
+                  <div class="nav__circle">2</div>
                </div>
 
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
+               <a href="#" class="button button__dark  send-card-btn">Send a Card</a>
             </div>
 
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-apps-2-line"></i>
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
             </div>
-         </nav>
-      </header>
+         </div>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home">
-            <div class="home__container container">
-               <img src="assets/img/santa.png" alt="santa" class="home__img">
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+         </div>
+      </nav>
+   </header>
 
-               <div class="home__data">
-                  <div>
-                     <h1 class="home__title" id="title-data">
-                        Last
-                        <div class="home__number" id="number-data">03</div>
-                        <div class="home__text" id="text-data">Days</div>
-                        To Receive Christmas
-                     </h1>
-                     <h1 class="home__title" id="msg-christmas"></h1>
-                  </div>
-                  
-                  <p class="home__description">
-                     Share some Christmas spirit and happiness
-                     with these festive cards. 
-                  </p>
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+         <div class="home__container container">
+            <img src="assets/img/santa.png" alt="santa" class="home__img">
 
-                  <a href="#" class="button">Send a Christmas Card</a>
+            <div class="home__data">
+               <div>
+                  <h1 class="home__title" id="title-data">
+                     Last
+                     <div class="home__number" id="number-data">03</div>
+                     <div class="home__text" id="text-data">Days</div>
+                     To Merry Christmas
+                  </h1>
+                  <h1 class="home__title" id="msg-christmas"></h1>
                </div>
 
-               <img src="assets/img/bell.png" alt="image" class="home__bell">
-               <img src="assets/img/star.png" alt="image" class="home__star">
+               <p class="home__description"></p>
 
-               <div class="home__blob"></div>
+               <a href="#" class="button receive-card-btn">Receive Randomly Card</a>
             </div>
-         </section>
-      </main>
 
-      <!--=============== SNOW JS ===============-->
-      <script src="https://app.embed.im/snow.js" defer></script>
+            <img src="assets/img/bell.png" alt="image" class="home__bell">
+            <img src="assets/img/star.png" alt="image" class="home__star">
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+            <div class="home__blob"></div>
+         </div>
+      </section>
+   </main>
+
+   <!-- Christmas Greeting Modal (for Receiving) -->
+   <div id="christmasGreetingModal" class="greeting-modal">
+      <div class="greeting-modal-content">
+         <span class="greeting-modal-close" id="closeGreetingModal">&times;</span>
+         <div class="greeting-emoji" id="greetingEmoji">🎄</div>
+         <div class="christmas-greeting" id="randomGreeting"></div>
+      </div>
+   </div>
+
+   <!-- Christmas Card Modal (for Sending) -->
+   <div id="christmasCardModal" class="card-modal">
+      <div class="card-modal-content">
+         <span class="card-modal-close" id="closeModal">&times;</span>
+         <h2 style="margin-bottom: 20px;">Please Say Something To ĐOÀN Nhé hahahah 🤣🤣🤣</h2>
+         <button class="send-greeting-btn" id="sendGreeting"><a
+               href="https://www.facebook.com/profile.php?id=100018177222935">Send Greeting</a></button>
+      </div>
+   </div>
+   <audio id="background-audio" autoplay loop>
+      <source src="calm-christmas-piano-262888.mp3" type="audio/mpeg">
+   </audio>
+   <div class="audio-control">
+      <button id="audio-toggle" class="button">Mute Music</button>
+   </div>
+   <!--=============== SNOW JS ===============-->
+   <script src="https://app.embed.im/snow.js" defer></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+   <script>
+      document.addEventListener('DOMContentLoaded', () => {
+         // Receive Random Card Modal
+         const receiveCardButtons = document.querySelectorAll('.receive-card-btn');
+         const christmasGreetingModal = document.getElementById('christmasGreetingModal');
+         const closeGreetingModalBtn = document.getElementById('closeGreetingModal');
+         const randomGreetingEl = document.getElementById('randomGreeting');
+         const greetingEmojiEl = document.getElementById('greetingEmoji');
+
+         // Array of cute Christmas greetings
+         const christmasGreetings = [
+            "Merry Christmas! May your wallet survive all the Christmas sales and your stomach survive all the food! 🎅🍗",
+            "Santa called me. He said you're on the naughty list... again! Better luck next year, buddy! 😂🎁",
+            "I hope your Christmas is as lit as your ugly sweater! And don't forget, the uglier, the better! 🧥🔥",
+            "May your Christmas be merry and bright... just like the lights you forgot to untangle! 🎄😂",
+            "Here's to hoping Santa doesn't mistake you for one of his elves. Shorty, keep hiding! 🧝‍♂️❄️",
+            "Merry Christmas! Remember, calories don't count during the holidays—eat like no one's watching! 🍪🍗",
+            "Wishing you a Christmas filled with joy, laughter, and maybe a little less bad luck than last year! 🕯️🤣",
+            "If Christmas cheer could fix your face, this would be your best holiday ever! Just kidding (or am I?)! 😂🎅",
+            "Happy Holidays! May all your Christmas gifts be amazing—unlike your taste in memes! 🎁😂",
+            "Remember, Santa only visits good boys and girls… so he's skipping your house again this year! 🦌🤣"
+         ];
+
+         // Array of festive emojis
+         const festiveEmojis = ['🎄', '🎅', '❄️', '🦌', '🎁', '🕯️', '☃️', '🔔'];
+
+         // Open modal when Receive Random Card buttons are clicked
+         receiveCardButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+               e.preventDefault();
+
+               // Select a random greeting
+               const randomGreeting = christmasGreetings[Math.floor(Math.random() * christmasGreetings.length)];
+               const randomEmoji = festiveEmojis[Math.floor(Math.random() * festiveEmojis.length)];
+
+               // Display the greeting and emoji
+               randomGreetingEl.textContent = randomGreeting;
+               greetingEmojiEl.textContent = randomEmoji;
+
+               // Show the modal
+               christmasGreetingModal.style.display = 'flex';
+            });
+         });
+
+         // Close receive modal when close button is clicked
+         closeGreetingModalBtn.addEventListener('click', () => {
+            christmasGreetingModal.style.display = 'none';
+         });
+
+         // Close receive modal if clicked outside of the modal content
+         christmasGreetingModal.addEventListener('click', (e) => {
+            if (e.target === christmasGreetingModal) {
+               christmasGreetingModal.style.display = 'none';
+            }
+         });
+
+         // Send Card Modal
+         const sendCardButtons = document.querySelectorAll('.send-card-btn');
+         const christmasCardModal = document.getElementById('christmasCardModal');
+         const closeCardModalBtn = document.getElementById('closeModal');
+         const sendGreetingBtn = document.getElementById('sendGreeting');
+         const christmasGreetingTextarea = document.getElementById('christmas-greeting');
+
+         // Open modal when Send a Card buttons are clicked
+         sendCardButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+               e.preventDefault();
+               christmasCardModal.style.display = 'flex';
+            });
+         });
+
+         // Close send modal when close button is clicked
+         closeCardModalBtn.addEventListener('click', () => {
+            christmasCardModal.style.display = 'none';
+         });
+
+         // Send greeting functionality
+         sendGreetingBtn.addEventListener('click', () => {
+            const greeting = christmasGreetingTextarea.value.trim();
+
+            if (greeting) {
+               alert('Your Christmas greeting has been sent!\n\n' + greeting);
+               christmasCardModal.style.display = 'none';
+               christmasGreetingTextarea.value = '';
+            } else {
+               alert('Please write a Christmas greeting first!');
+            }
+         });
+
+         // Close send modal if clicked outside of the modal content
+         christmasCardModal.addEventListener('click', (e) => {
+            if (e.target === christmasCardModal) {
+               christmasCardModal.style.display = 'none';
+            }
+         });
+      });
+
+      function createSnowflake() {
+         const snowflake = document.createElement('div');
+
+         // Các biểu tượng có thể thay đổi
+         const symbols = ['❄️', '⭐', '🎅', '🎄', 'T', 'R', 'A', 'N', 'P', 'H', 'U', 'O', 'N', 'G', 'T', 'H', 'A', 'O', '🐄'];
+
+         // Chọn ngẫu nhiên biểu tượng
+         const randomSymbol = symbols[Math.floor(Math.random() * symbols.length)];
+         snowflake.innerHTML = randomSymbol;
+
+         snowflake.classList.add('snowflake');
+
+         // Random horizontal position
+         snowflake.style.left = Math.random() * 100 + 'vw';
+
+         // Random size
+         const size = Math.random() * 20 + 10;
+         snowflake.style.fontSize = size + 'px';
+
+         // Random animation duration
+         snowflake.style.animationDuration = (Math.random() * 5 + 5) + 's';
+
+         document.body.appendChild(snowflake);
+
+         // Remove snowflake after animation
+         setTimeout(() => {
+            snowflake.remove();
+         }, 10000);
+      }
+
+      // Create snowflakes periodically
+      function startSnowEffect() {
+         setInterval(createSnowflake, 200);
+      }
+
+      // Start snow effect when page loads
+      window.addEventListener('load', startSnowEffect);
+
+      // Tạo container chứa pháo hoa
+      const fireworkContainer = document.createElement("div");
+      fireworkContainer.classList.add("firework-container");
+      document.body.appendChild(fireworkContainer);
+
+      // Lưu trữ thời gian trễ
+      const delayTime = 500; // Trễ cố định 1 giây (1000ms)
+
+      // Biến để theo dõi việc di chuyển chuột
+      let mouseMoveTimeout;
+
+      // Lắng nghe sự kiện 'mousemove' để tạo pháo hoa theo vị trí chuột
+      document.addEventListener("mousemove", (e) => {
+         // Hủy bỏ các lần gọi trước đó nếu sự kiện di chuyển chuột liên tục xảy ra
+         if (mouseMoveTimeout) {
+            clearTimeout(mouseMoveTimeout);
+         }
+
+         // Đặt thời gian trễ trước khi tạo pháo hoa
+         mouseMoveTimeout = setTimeout(() => {
+            createFireworkExplosion(e.clientX, e.clientY);
+         }, delayTime);
+      });
+
+      const createFireworkExplosion = (x, y) => {
+         const totalSparks = 50; // Số lượng tia sáng
+         const fireworkExplosion = document.createElement("div");
+         fireworkExplosion.classList.add("firework-explosion");
+
+         // Vị trí tâm của pháo hoa
+         fireworkExplosion.style.left = `${x}px`;
+         fireworkExplosion.style.top = `${y}px`;
+
+         // Tạo các tia sáng
+         for (let i = 0; i < totalSparks; i++) {
+            const firework = document.createElement("div");
+            firework.classList.add("firework-spark");
+
+            // Tạo hướng và khoảng cách ngẫu nhiên
+            const angle = (Math.random() * 360) * (Math.PI / 180); // Chuyển đổi sang radian
+            const distance = Math.random() * 300 + 100; // Khoảng cách xa hơn
+            const tx = Math.cos(angle) * distance;
+            const ty = Math.sin(angle) * distance;
+
+            // Thiết lập màu sắc và hiệu ứng tia sáng
+            firework.style.background = getRandomColor();
+            firework.style.animationDuration = `${Math.random() * 2 + 1}s`; // Thời gian chạy ngẫu nhiên
+
+            firework.style.transform = `translate(${tx}px, ${ty}px)`;
+
+            fireworkExplosion.appendChild(firework);
+         }
+
+         // Thêm vào body
+         document.body.appendChild(fireworkExplosion);
+
+         // Xóa pháo hoa sau khi hoàn thành animation
+         fireworkExplosion.addEventListener("animationend", () => {
+            fireworkExplosion.remove();
+         });
+      };
+
+
+      // Hàm chọn màu ngẫu nhiên
+      const getRandomColor = () => {
+         const colors = ["#ff0000", "#ff9900", "#ffcc00", "#00ff00", "#00ccff", "#ff00ff", "#ffffff"];
+         return colors[Math.floor(Math.random() * colors.length)];
+      };
+
+
+      // Xử lý sự kiện khi người dùng click
+      const bellButton = document.querySelector(".nav__bell");
+      const cardButton = document.querySelector(".send-card-btn");
+
+      bellButton.addEventListener("click", (e) => {
+         const rect = bellButton.getBoundingClientRect();
+         const x = rect.left + rect.width / 2;
+         const y = rect.top + rect.height / 2;
+         createFireworkExplosion(x, y);
+      });
+
+      cardButton.addEventListener("click", (e) => {
+         const rect = cardButton.getBoundingClientRect();
+         const x = rect.left + rect.width / 2;
+         const y = rect.top + rect.height / 2;
+         createFireworkExplosion(x, y);
+      });
+
+      // Xử lý click toàn màn hình (nếu cần)
+      document.addEventListener("click", (e) => {
+         createFireworkExplosion(e.clientX, e.clientY);
+      });
+
+
+      // Lấy audio và nút điều khiển
+      const audio = document.getElementById("background-audio");
+      const audioToggle = document.getElementById("audio-toggle");
+
+      // Gắn sự kiện để tắt/bật nhạc
+      audioToggle.addEventListener("click", () => {
+         if (audio.paused) {
+            audio.play();
+            audioToggle.textContent = "Mute Music";
+         } else {
+            audio.pause();
+            audioToggle.textContent = "Play Music";
+         }
+      });
+
+
+
+      // Tạo nhiều tia sáng ngẫu nhiên cho mỗi lần nổ
+      function createFirework(x, y) {
+         const explosion = document.createElement('div');
+         explosion.classList.add('firework-explosion');
+         explosion.style.left = `${x}px`;
+         explosion.style.top = `${y}px`;
+
+         // Tạo nhiều tia sáng
+         for (let i = 0; i < 30; i++) {
+            const spark = document.createElement('div');
+            spark.classList.add('firework-spark');
+            explosion.appendChild(spark);
+         }
+
+         document.body.appendChild(explosion);
+      }
+
+      // Gọi hàm để tạo pháo hoa tại vị trí (200, 200)
+      createFirework(200, 200);
+
+
+
+   </script>
+</body>
+
 </html>

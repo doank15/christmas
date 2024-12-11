@@ -53,7 +53,6 @@ const christmasCountdown = () => {
       minutes = 0,
       seconds = 0
 
-  // Don't calculate the time left if it is Christmas day
   if(currentMonth !=12 || (currentMonth == 12 && currentDay != 25)){
     days = Math.floor(timeLeft / 1000 / 60 / 60 / 24)
     hours = Math.floor(timeLeft / 1000 / 60 / 60) % 24
@@ -61,11 +60,9 @@ const christmasCountdown = () => {
     seconds = Math.floor(timeLeft / 1000) % 60
   }
 
-  // Show missing days
   numberData.innerHTML = days < 10 ? `0${days}` : days
   textData.innerHTML = 'Days'
 
-  // Show missing hours
   if(currentDay == 24){
     numberData.innerHTML = hours < 10 ? `0${hours}` : hours
     textData.innerHTML = 'Hours'
